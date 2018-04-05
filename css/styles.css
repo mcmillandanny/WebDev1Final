@@ -1,0 +1,429 @@
+body {
+    background-color: #424242;
+    font-family: 'Arvo', 'arial', serif;
+}
+.wrapper {
+    width: 960px;
+    margin: auto;
+    border-right: 1px #fff solid;
+    border-left: 1px #fff solid;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+}
+/* HEADER STYLES */
+
+header {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7d7e7d+0,0e0e0e+100;Black+3D */
+    
+    background: #252424;
+    /* Old browsers */
+    
+    background: -moz-linear-gradient(top, rgba(125, 126, 125, 1) 0%, rgba(14, 14, 14, 1) 100%);
+    /* FF3.6-15 */
+    
+    background: -webkit-linear-gradient(top, rgba(125, 126, 125, 1) 0%, rgba(14, 14, 14, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    
+    background: linear-gradient(to bottom, rgba(125, 126, 125, 1) 0%, rgba(14, 14, 14, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e', GradientType=0);
+    /* IE6-9 */
+    
+    float: left;
+    width: 100%;
+}
+header h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px 40px;
+    color: white;
+    float: left;
+}
+h1 span {
+    color: #C40000;
+}
+nav ul {
+    float: right;
+    list-style: none;
+}
+nav li {
+    display: inline;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 28px;
+    float: left;
+    border-left: 1px #595959 solid;
+}
+nav a:hover {
+    background: black;
+}
+a.active {
+    background: black;
+}
+/* FOOTER STYLES */
+
+footer {
+    clear: both;
+    background: black;
+    color: white;
+    padding: 20px;
+    font-family: "arial", sans-serif;
+    line-height: 1em;
+}
+footer a {
+    color: #C40000;
+    text-decoration: none;
+}
+/*  STYLES */
+
+.resources-page .hero-statement,
+.about .hero-statement,
+.work-page .hero-statement {
+    float: left;
+    padding: 25px 35px;
+    margin-top: 42px;
+    background-color: transparent;
+    text-shadow: 0px 0px 15px rgba(150, 150, 150, 1);
+}
+.resources-page .wrapper,
+.about .wrapper,
+.work-page .wrapper {
+    background-color: #c6c6c6;
+}
+.work-page aside,
+.about aside {
+    float: right;
+    width: 300px;
+    background: #282828;
+    color: white;
+    margin: -85px 25px 0px 10px;
+    padding: 20px 30px;
+}
+a.testimonial-link,
+a.classes {
+    color: #C40000;
+    text-decoration: none;
+    font-family: 'arial';
+}
+.about h2,
+.work-page h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+}
+.about p,
+.work-page h2 {
+    font-family: "arial", serif;
+    font-size: 15px;
+    line-height: 1em;
+    margin-bottom: 10px;
+}
+
+.about h2,
+.work-page h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    font-family: "arvo";
+}
+.about p,
+.work-page p {
+    font-family: "arial", serif;
+    font-size: 15px;
+    line-height: 1em;
+    margin-bottom: 10px;
+}
+.about .hero-statement,
+.work-page .hero-statement {
+    width: auto;
+}
+article {
+    float: left;
+    background: rgba(255, 255, 255, .6);
+    margin: -85px 0px 40px 35px;
+    width: 475px;
+    padding: 0px 25px 25px 25px;
+}
+/* HOMEPAGE STYLES */
+
+.hero {
+    clear: both;
+    background: url('../img/space.jpg');
+    background-position: center;
+    background-size: 960px;
+    height: 480px;
+}
+.hero-statement {
+    float: left;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 650px;
+    padding: 25px 35px;
+    margin-top: 42px;
+}
+.hero-statement h1 {
+    font-size: 52px;
+    color: white;
+    z-index: 1;
+}
+.hero-statement p {
+    float: right;
+    font-size: 120px;
+    color: red;
+    margin-top: -100px;
+}
+.about-me {
+    float: right;
+    background: white;
+    padding: 25px;
+    width: 428px;
+    margin-top: 88px;
+    border-top-style: 1px #C6C6C6 solid;
+    border-right-style: 1px #C6C6C6 solid;
+}
+
+.student-name h2 {
+    font-size: 30px;
+}
+.student-name {
+    padding-left: 150px;
+}
+
+.student-name a {
+    color: #C40000;
+    text-decoration: none;
+    font-family: 'arial';
+}
+p.title {
+    padding-top: 15px;
+    font-family: 'arial';
+    margin-bottom: 45px;
+}
+img.about-me-img {
+    float: left;
+    width: 126px;
+    height: 126px;
+}
+.space-stuff {
+    clear: both;
+    float: left;
+    width: 480px;
+    height: 425px;
+    margin-right: 0px;
+    background-color: white;
+    border-top: 1px #C6C6C6 solid;
+    border-right: 1px #C6C6C6 solid;
+}
+.space-info {
+    padding: 15px 30px;
+}
+.space-stuff h2 {
+    background: black;
+    color: white;
+    font-size: 30px;
+    padding: 15px 30px;
+}
+.space-stuff h2 span {
+    font-weight: bolder;
+}
+img.space-stuff {
+    width: 126px;
+    height: 126px;
+    border: 1px black solid;
+}
+.space-stuff li {
+    float: left;
+    display: inline;
+    margin-right: 10px;
+    margin-bottom: 9px;
+    background: white;
+}
+p.blurb {
+    padding-top: 150px;
+    font-family: 'arial';
+}
+p.nasa-link {
+    margin-top: 20px;
+    padding-bottom: 35px;
+}
+.space-facts {
+    float: right;
+    width: 459px;
+    padding-top: 20px;
+    padding-left: 20px;
+    height: 407px;
+}
+img.space-img {
+    width: 81px;
+    height: 81px;
+    float: left;
+}
+.fun-facts {
+    width: 450px;
+    margin-bottom: 40px;
+    color: white;
+}
+.fun-facts h3 {
+    font-size: 18px;
+    padding-bottom: 5px;
+    padding-left: 100px;
+}
+.fun-facts p {
+    font-size: 15px;
+    font-family: 'arial';
+    padding-left: 100px;
+    padding-right: 20px;
+}
+/* RESOURCES STYLES */
+
+.hero {
+    background: url('../img/space4.jpg');
+    background-position-y: 50%;
+    background-size: 960px;
+}
+.image-box {
+    float: left;
+    background: url("../img/html-css.jpg") no-repeat white;
+    background-size: 611px 235px;
+    width: 611px;
+    margin: -100px 0px 0px 20px;
+    -webkit-box-shadow: 0px 0px 49px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 49px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 49px -1px rgba(0, 0, 0, 0.75);
+}
+.markup-box {
+    float: left;
+    width: 299px;
+    height: 378px;
+    background-color: #262525;
+}
+.markup-box.first {
+    margin: -100px 0px 0px 10px;
+}
+.resources-page h2 {
+    font-size: 30px;
+    padding: 20px 25px 0px 25px;
+}
+.markup-box h2 {
+    color: white;
+}
+.image-box h2 {
+    margin-top: 250px;
+    padding-top: 0px;
+}
+.image-box-description {
+    padding: 20px 25px 45px 25px;
+    font-family: "arial";
+}
+.bottom-boxes {
+    float: left;
+    margin-right: 15px;
+    margin-left: 10px;
+     
+    z-index: 50;
+}
+.bottom-boxes .markup-box {
+    margin: 20px 1px 0px 10px;
+}
+.markup-box.last {
+    margin-right: 0px;
+}
+
+p.markup-box-links,
+a.markup-box-links {
+    font-size: 15px;
+    font-family: "arial";
+    color: white;
+    padding-top: 25px;
+}
+a.markup-box-links {
+    padding: 25px 0px 25px 25px;
+}
+p.description {
+    padding: 0px 25px;
+}
+p.description.last {
+    padding-bottom: 25px;
+}
+
+.footer {
+    position: fixed;
+    z-index: 20;
+}
+/* About CSS */
+
+.about .hero {
+    background: url("../img/space3.jpg");
+    height: 275px;
+    background-position-y: 50%;
+    background-size: 960px;
+}
+.side-hero p {
+    padding-bottom: 5px;
+}
+p.side-hero-border {
+    padding-bottom: 15px;
+    border-bottom: 1px #888 solid;
+}
+span.font-bold {
+    font-weight: bold;
+    padding-right: 25px;
+}
+.rapper img {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+a.classes {
+    margin-left: 65px;
+}
+/* WORK STYLES */
+
+.work-page .hero-statement {
+    padding-top: 0px;
+}
+.work-page .hero {
+    background: url('../img/all-your-base.jpg');
+    background-position: center;
+    background-position-y: 45%;
+    background-position-x: 43%;
+    background-size: 2000px;
+}
+.work-page {
+    color: white;
+}
+.work-page h3 {
+    font-family: "arial";
+    font-size: 18px;
+    line-height: 1.3em;
+}
+.font-color {
+    color: black;
+}
+.workimg {
+    width: 118px;
+    height: 118px;
+    float: left;
+}
+.daniel-mcmillan h4 {
+    font-size: 24px;
+    font-family: "arvo";
+    margin-left: 139px;
+}
+.daniel-mcmillan p {
+    float: left;
+    padding-left: 10px;
+    padding-top: 15px;
+    margin-left: 15px;
+}
+.bio p {
+    clear: both;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.bio-2 p {
+    margin-top: -20px;
+}
